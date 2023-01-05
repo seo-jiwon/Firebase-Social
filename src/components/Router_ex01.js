@@ -5,7 +5,7 @@ import Home from '../routes/Home';
 
 const AppRouter = () => {
   // 함수의 내부 - 연산, 호출 ...
-  // 상수 선언, ES6문번의 구조 분해 할당
+  // 상수 선언, ES6문법의 구조 분해 할당
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [number, setNumber] = useState(0);
   const onLogIn = () => {

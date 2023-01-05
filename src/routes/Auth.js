@@ -83,13 +83,15 @@ const Auth = () => {
         <input type="submit" value={newAccount ? 'Create Account' : 'Log In'} />
         {error}
       </form>
-      <span onClick={toggleAccount}>{newAccount ? '[Sign In]' : '[Create Account]'}</span>
+      <br/>
+      <button onClick={toggleAccount}>{newAccount ? 'Sign In' : 'Create Account'}</button>
       <div>
+        <br/>
         <button onClick={onSocialClick} name="google">
-          Continue with Google
+          구글로 로그인
         </button>
         <button onClick={onSocialClick} name="github">
-          Continue with Github
+          깃허브로 로그인
         </button>
       </div>
     </div>

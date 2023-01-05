@@ -3,7 +3,7 @@ import AppRouter from 'components/Router';
 import { authService } from 'fbase';
 
 function App() {
-  // 상수 선언, ES6문번의 구조 분해 할당
+  // 상수 선언, ES6문법의 구조 분해 할당
   const [init, setInit] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userObj, setUserObj] = useState(null);
@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       {init ? <AppRouter isLoggedIn={isLoggedIn} userObj={userObj} /> : 'initializing ...'}
-      <footer>&copy; {new Date().getFullYear()} Nwitter</footer>
+      <footer>&copy; {new Date().getFullYear()} Zion</footer>
     </>
   );
 }

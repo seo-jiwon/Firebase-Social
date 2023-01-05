@@ -16,7 +16,7 @@ const Nweet = ({ nweetObj, userObj }) => {
       }
     }
   };
-  // 소년이노 학난성
+
   const textStyle = {
     color: 'orange',
     fontSize: '16pt',
